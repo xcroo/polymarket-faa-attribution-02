@@ -13,6 +13,8 @@
 #
 # On the practice cases (the NVIDIA cut, byte-identical) this scores 0.271628 mean pinball loss vs the
 # house baseline's 0.363589, beating it on every one of the six cases.
+# The final runs on the 4-market FAA outage attribution family; the
+# forecaster is market-agnostic — it reads whatever markets a case holds.
 # Deterministic: no randomness, no network, stdlib only.
 import json
 import math
